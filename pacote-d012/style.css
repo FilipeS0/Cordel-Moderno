@@ -1,0 +1,40 @@
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: -9px;
+    border: 0px;
+    font-size: .5em;
+}
+
+h1 {
+    margin: 5%;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 1px;
+}
+
+p{
+    font-size: 2em;
+    padding: 1em;
+}
+
+p.p1 {
+    background-color: white;
+    padding: 1em;
+    
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
