@@ -23,7 +23,7 @@ header {
     text-align: center;
     padding: 20px 0px 30px;
     border: 0px;
-    font-size: .5em;
+    font-size: .5rem;
 }
 
 h1 {
@@ -41,16 +41,16 @@ header a{
 }
 
 p {
-    font-size: 2em;
+    font-size: 2rem;
     font-family: 'Sriracha', cursive;
 }
-
+/*
 div {
     padding: 70px 30px;
 }
 
 div p{
-    font-size: 2em;
+    font-size: 2rem;
     line-height: 1.6;
     
 }
@@ -86,6 +86,29 @@ div .p1 {
 .together {
     padding-top: 0px;
     padding-bottom: 0px;
+} */
+
+div {
+    padding: 6%;
+}
+
+#container1 {
+    position: relative;
+    background: white url(pacote-d012/imagens/background001.jpg) center right/cover no-repeat fixed;    
+}
+
+#container2 {
+    position: relative;
+    background: white url(pacote-d012/imagens/background002.jpg) center right/cover no-repeat fixed; 
+}
+
+#content1 {
+    background-color: rgba(0, 0, 0, 0.54);
+    color: white;
+    max-width: fit-content;
+    padding: 0%;
+    margin: 3% 1.5%;
+
 }
 
 footer {
