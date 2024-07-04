@@ -14,24 +14,96 @@
 * {
     padding: 0px;
     margin: 0px;
-    font-size: 1em;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
 }
 
 header {
     background-color: black;
     color: white;
     text-align: center;
+    padding: 20px;
+}
+
+header > h1 {
+    font-family: 'Cordel';
+    font-variant: small-caps;
+    font-size: 7.5vw;
+    padding-top: 20px;
+}
+
+header > p {
+    padding-bottom: 5px;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+header > p > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header > p > a:hover {
+    text-decoration: underline;
+}
+
+main p {
+    font-family: "sriracha", cursive;
+    font-size: 3vw;
+
+    padding: 10vh 0px 10vh 30px;
 }
 
 main > #container {
     background-color: lightgray;
 }
 
-main p {
-    padding-left: 30px;
+.image1 > p {
+    background-color: rgba(0, 0, 0, 0.375);
+    color: white;
+    width: fit-content;
+    padding: 0px;
+}
+
+#container .image1 {
+    background: white url(pacote-d012/imagens/background001.jpg) center right/cover no-repeat fixed;
+    padding: 50px 0px 50px 30px;
+}
+
+.image2 > p {
+    background-color: rgba(0, 0, 0, 0.373);
+    color: white;
+    width: fit-content;
+    padding: 0px;
+}
+
+#container .image2 {
+    background: white url(pacote-d012/imagens/background002.jpg) center left/cover no-repeat fixed;
+    padding: 50px 0px 50px 30px;
+}
+
+.notop p {
+    padding-top: 0px;
 }
 
 footer {
     background-color: black;
     color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: white;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
 }
